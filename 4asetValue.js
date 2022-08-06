@@ -16,9 +16,6 @@ event.add(e6);
 for(let i of event)
 console.log(i)
 
-event.forEach(function(val){
-    console.log(val)
-})
 
 var n = prompt("Enter the no. of items in set :")
 var x = new Set()

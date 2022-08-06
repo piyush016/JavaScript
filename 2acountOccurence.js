@@ -6,5 +6,6 @@ function Char_Counts(str) {
   });
   return uchars;
 }
-var str = prompt("Enter a string: ")
+
+var str = prompt("Enter a string: ");
 console.log(Char_Counts(str));
